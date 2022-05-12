@@ -13,13 +13,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from ASUS_X00TD device
 $(call inherit-product, device/asus/ASUS_X00TD/device.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+# Inherit some common Twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ASUS_X00TD
-PRODUCT_NAME := omni_ASUS_X00TD
+PRODUCT_NAME := twrp_ASUS_X00TD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X00TD
 PRODUCT_MANUFACTURER := asus

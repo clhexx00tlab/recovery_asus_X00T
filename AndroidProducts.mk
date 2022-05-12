@@ -6,4 +6,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ASUS_X00TD.mk
+    $(LOCAL_DIR)/twrp_ASUS_X00TD.mk
